@@ -1,4 +1,4 @@
-package part1;
+package functional_interface;
 //--------Java 8 Approach--------------------
 public class CalculatorImpl2{
    public void calculate() {
@@ -11,8 +11,11 @@ public class CalculatorImpl2{
 	   c2.switchOn();
 	   
 	 
-	   ICalcWithArguments ic=(int a,int b)->{return (a+b);};
+	   ICalcWithArguments ic=(a,b)->{return (a+b);};
 	   System.out.println(ic.add(10, 20));
+	   
+	   CalcPractice3 cp3= ( x, y, z)->x+y+z;
+	   System.out.println(cp3.add(2, 8, 5));
    }
    
 }

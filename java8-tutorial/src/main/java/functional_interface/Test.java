@@ -1,4 +1,4 @@
-package part1;
+package functional_interface;
 
 public class Test {
 	private Calculator calculator=new CalculatorImpl();

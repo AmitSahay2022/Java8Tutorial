@@ -1,4 +1,4 @@
-package part1;
+package functional_interface;
 //------------This is Traditional approach---------------------
 public class CalculatorImpl implements Calculator {
 	public void switchOn() {
