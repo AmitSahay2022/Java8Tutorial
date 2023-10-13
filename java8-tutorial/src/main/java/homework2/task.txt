@@ -1,0 +1,5 @@
+Create a Employee class with fields id,name,department, salary
+
+create some employee objects
+
+print only employee who has salary > 50000 with message "You have to pay tax"
