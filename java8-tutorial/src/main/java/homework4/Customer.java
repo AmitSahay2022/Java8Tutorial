@@ -32,4 +32,9 @@ public class Customer {
 		return phoneNmubers;
 	}
 
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return id+" : "+name+" : "+email+" : "+phoneNmubers;
+	}
 }
